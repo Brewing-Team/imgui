@@ -11,8 +11,6 @@ set(SOURCES
         "${CMAKE_CURRENT_SOURCE_DIR}/imstb_textedit.h"
         "${CMAKE_CURRENT_SOURCE_DIR}/imstb_truetype.h"
         "${CMAKE_CURRENT_SOURCE_DIR}/imgui_demo.cpp"
-        "${CMAKE_CURRENT_SOURCE_DIR}/backends/imgui_impl_glfw.h"
-        "${CMAKE_CURRENT_SOURCE_DIR}/backends/imgui_impl_glfw.cpp"
         "${CMAKE_CURRENT_SOURCE_DIR}/backends/imgui_impl_opengl3.h"
         "${CMAKE_CURRENT_SOURCE_DIR}/backends/imgui_impl_opengl3.cpp")
 add_library(${PROJECT_NAME} STATIC ${SOURCES})
